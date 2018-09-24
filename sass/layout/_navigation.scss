@@ -42,6 +42,7 @@
         opacity: 0;
         width: 0;
         transition: all .5s cubic-bezier(.68, -.55, .265, 1.55);
+        visibility: hidden;
         z-index: 1500;
     }
     &__list {
@@ -87,6 +88,7 @@
     &__checkbox:checked~&__nav {
         opacity: 1;
         width: 100%;
+        visibility: visible;
     }
     // Icon
     &__icon {
